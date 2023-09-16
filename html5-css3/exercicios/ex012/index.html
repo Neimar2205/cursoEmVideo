@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML5</title>
+</head>
+<body>
+    <h1>Trabalhando com Videos em Hospedados localmente.</h1>
+    <p>Este video esta hospedado diretamente no meu proprio  site.</p>
+<!-- Aqui o video é hospedado diretamente no site -->
+    <video controls width="560px" poster="videos/capameuvideo.png">
+        <source src="videos/meuvideo.ogv" type="video/ogg">
+        <source src="videos/meuvideo.webm" type="video/webm">
+        <source src="videos/meuvideo.m4v" type="video/mp4">
+        <source src="videos/meuvideo.mp4" type="video/mp4">
+        <p>Seu navegador não é compativel com a reprodução de video</p>
+        <p>Se preferir você pode baixar o video.<a href="videos/meuvideo.mp4">Clique aqui</a></p>
+    </video>
+
+    <h1>Incorporando video do Youtube</h1>
+    <p>Este video esta hospedado nos servidores do youtube</p>
+    <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=Ror_fCMdJbpTR9y6"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen ></iframe>
+    </p>
+
+    <h1>Video incorporado do VIMEO</h1>
+    <p>Este video está hospedado nos Servidores do VIMEO</p>
+    <p>
+    <iframe src="https://player.vimeo.com/video/223620475?h=f8679d19a8" width="560" height="315" frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </p>
+    <p>Através do link do video no VIMEO <a href="https://vimeo.com/223620475">Link deste video</a></p>
+
+
+</body>
+</html>
